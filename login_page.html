@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style/login.css">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <title>Login Page</title>
+</head>
+
+<body style="background-color: #333;">
+    <!--================= navbar st ====================-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <nav class="navbar navbar-expand-md fixed-top">
+                    <a class="navbar-brand" href="index.html">
+                        <h1>RIDE IT</h1>
+                    </a>
+                    <button class="navbar-toggler btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+                        <span class="navbar-toggler-icon bg-info"></span>
+                    </button>
+                    <div class="search ms-4">
+                        <input type="text" name="search" placeholder="search">
+                        <a href="#">
+                            <i class="fa-solid fa-magnifying-glass" style="color: #37b3ab;"></i>
+                        </a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbar">
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item active">
+                                <a href="index.html" class="nav-link">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="about.html" class="nav-link">ABOUT US</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="brands.html" class="nav-link">BRANDS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="contact.html" class="nav-link">CONTACT US</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-1 text-dark">
+                        <a href="login_page.html" class="btn btn-outline-info"><i
+                                class="fa-regular fa-user me-2"></i>Login</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!--====================== navbar end ====================-->
+
+    <!--======================= banner ==========================-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <img src="images/login_banner.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    <!--===================== banner end =========================-->
+
+    <div class="container container-fluid mt-5 mb-5" id="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-container sign-up">
+                    <form>
+                        <h1>Create Account</h1>
+                        <div class="social_icons">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        </div>
+                        <span>or use your email for registeration</span>
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Email">
+                        <input type="password" placeholder="Password">
+                        <button class="btn btn-outline-info">Sign Up</button>
+                    </form>
+                </div>
+                <div class="form-container sign-in">
+                    <form>
+                        <h1>Sign In</h1>
+                        <div class="social_icons">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        </div>
+                        <span>or use your email password</span>
+                        <input type="email" placeholder="Email">
+                        <input type="password" placeholder="Password">
+                        <a href="#">Forget Your Password?</a>
+                        <button class="btn btn-outline-info">Sign In</button>
+                    </form>
+                </div>
+                <div class="toggle-container">
+                    <div class="toggle">
+                        <div class="toggle-panel toggle-left">
+                            <h1>Welcome Back!</h1>
+                            <p>Enter your personal details to use all of site features</p>
+                            <button class="hidden btn btn-outline-info" id="login">Sign In</button>
+                        </div>
+                        <div class="toggle-panel toggle-right">
+                            <h1>Welcome, Friend!</h1>
+                            <p>Enter your personal details to use all of site features</p>
+                            <button class="hidden btn btn-outline-info" id="register">Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--=================== footer st ====================-->
+    <footer>
+        <div class="row">
+            <div class="col">
+                <h1>Ride It</h1>
+                <p>Ride It is the most trusted way of buying and selling used cars. Choose from over 5000 fully
+                    inspected second-hand car models. Select online and book a test drive at your home or at a Ride It
+                    Car Hub near you. Get a no-questions-asked 5-day money back guarantee and a free one-year
+                    comprehensive service warranty with Assured Resale Value on every Ride It car.</p>
+            </div>
+            <div class="col">
+                <h3>Office <div class="underline"><span></span></div>
+                </h3>
+                <p>Dwarka Sec-15</p>
+                <p>Kakrola, West Delhi</p>
+                <p>New Delhi, PIN 110078, India</p>
+                <p class="email-Id">jamalkhatri9@gmail.com</p>
+                <h4>+91- 7890284901</h4>
+            </div>
+            <div class="col">
+                <h3>Links <div class="underline"><span></span></div>
+                </h3>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About us</a>
+                    </li>
+                    <li>
+                        <a href="brands.html">Brands</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>Newsletter <div class="underline"><span></span></div>
+                </h3>
+                <form>
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="text" placeholder="Enter your email-Id" required>
+                    <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+                </form>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="copy-right">&copy; Ride It Privet Limited.
+            All rights reserved. | Designed By Jamal</p>
+    </footer>
+    <!--========================== footer end ==========================-->
+    <script src="script.js"></script>
+    <!-- js bundle file -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>automobile</title>
+    <!-- bootstrap file -->
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <!-- css file -->
+    <link rel="stylesheet" href="style/style.css">
+    <!-- font awesom -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <!-- js animation file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <!--================= navbar st ====================-->
+    <div class="container-fluid banner">
+        <div class="row">
+            <div class="col">
+                <nav class="navbar navbar-expand-md fixed-top">
+                    <a class="navbar-brand" href="index.html">
+                        <h1>RIDE IT</h1>
+                    </a>
+                    <button class="navbar-toggler btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+                        <span class="navbar-toggler-icon bg-info"></span>
+                    </button>
+                    <div class="search ms-4">
+                        <input type="text" name="search" placeholder="search">
+                        <a href="#">
+                            <i class="fa-solid fa-magnifying-glass" style="color: #37b3ab;"></i>
+                        </a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbar">
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item active">
+                                <a href="index.html" class="nav-link">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="about.html" class="nav-link">ABOUT US</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="brands.html" class="nav-link">BRANDS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="contact.html" class="nav-link">CONTACT US</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-1 text-dark">
+                        <a href="login_page.html" class="btn btn-outline-info"><i
+                                class="fa-regular fa-user me-2"></i>Login</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!--====================== navbar end ====================-->
+
+    <!--===================== banner start ========================-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <div id="mycarousel" class="carousel slide" data-bs-ride="carousel">
+                    <ul class="carousel-indicators">
+                        <li data-bs-target="#mycarousel" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#mycarousel" data-bs-slide-to="1"></li>
+                        <li data-bs-target="#mycarousel" data-bs-slide-to="2"></li>
+                        <li data-bs-target="#mycarousel" data-bs-slide-to="3"></li>
+                        <li data-bs-target="#mycarousel" data-bs-slide-to="4"></li>
+                    </ul>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="2000">
+                            <a href="#" class="d-block w-100">
+                                <video autoplay loop muted plays-inline>
+                                    <source src="images/production_id_4569076 (720p).mp4" type="video/mp4">
+                                </video>
+                            </a>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <a href="#" class="d-block w-100">
+                                <img src="images/lamborghini_banner.jpeg" class="w-100" style="height: 600px;">
+                                <div class="carousel-caption">
+                                    <h1 class="text-info" style="color: #1cd8d2; font-weight: bold;margin: 0 50% 0 0;">
+                                        START
+                                        YOUR ENGINE NOW</h1>
+                                    <h3 style="margin: 0 50% 2% 0; font-style: italic;">Find Your Favrait Laxury Car
+                                    </h3>
+                                    <h4
+                                        style="margin: 0 50% 15% 0; color: #37b3ab; font-weight: 500; font-style: oblique;">
+                                        <img src="images/lamborghini_logo.png" width="48px" height="48px"> Lamborghini
+                                        Avento
+                                    </h4>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <a href="#" class="d-block w-100">
+                                <img src="images/banner_6.jpg" class="w-100" style="height: 600px;">
+                                <div class="carousel-caption">
+                                    <h1 class="text-info" style="color: #1cd8d2; font-weight: bold;margin: 0 50% 0 0;">
+                                        START
+                                        YOUR ENGINE NOW</h1>
+                                    <h3 style="margin: 0 50% 2% 0; font-style: italic;">Find Your Favrait Laxury Car
+                                    </h3>
+                                    <h4
+                                        style="margin: 0 50% 15% 0; color: #37b3ab; font-weight: 500; font-style: oblique;">
+                                        <img src="images/ferrari_logo.jpeg" width="48px" height="48px"> Ferrari F24
+                                    </h4>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <a href="#" class="d-block w-100">
+                                <img src="images/banner_7.jpg" class="w-100" style="height: 600px;">
+                                <div class="carousel-caption">
+                                    <h1 class="text-info" style="color: #1cd8d2; font-weight: bold;margin: 0 50% 0 0;">
+                                        START
+                                        YOUR ENGINE NOW</h1>
+                                    <h3 style="margin: 0 50% 2% 0; font-style: italic;">Find Your Favrait Laxury Car
+                                    </h3>
+                                    <h4
+                                        style="margin: 0 50% 15% 0; color: #37b3ab; font-weight: 500; font-style: oblique;">
+                                        <img src="images/ferrari_logo.jpeg" width="48px" height="48px"> Ferrari OUTER
+                                        wnidow
+                                    </h4>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <a href="#" class="d-block w-100">
+                                <img src="images/about_banner.jpg" class="w-100" style="height: 600px;">
+                                <div class="carousel-caption">
+                                    <h1 class="text-info" style="color: #1cd8d2; font-weight: bold;margin: 0 50% 0 0;">
+                                        START
+                                        YOUR ENGINE NOW</h1>
+                                    <h3 style="margin: 0 50% 2% 0; font-style: italic;">Find Your Favrait Laxury Car
+                                    </h3>
+                                    <h4
+                                        style="margin: 0 50% 15% 0; color: #37b3ab; font-weight: 500; font-style: oblique;">
+                                        <img src="images/bmw_logo_icon.png"> BMW 2TS
+                                    </h4>
+                                </div>
+                            </a>
+                        </div>
+                        <a href="#mycarousel" class="carousel-control-prev" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a href="#mycarousel" class="carousel-control-next" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--====================== banner end ======================-->
+
+    <!--=================== lamborghini big img ====================-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col col-md-12 lamb">
+                <img src="images/lamborghini_big_img.jpeg" class="img-fluid" id="lamb-big">
+            </div>
+        </div>
+    </div>
+    <!--======================= lamborghini img end =======================-->
+
+    <!--===================== card hover effect ==================-->
+    <div class="container-fluid _2">
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <img src="images/mercedez-benz_amd_sl_1.webp" width="300px">
+                    <h3>Mercedes-Benz AMG SL</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>Mercedes-Benz AMG SL price starts at Rs. 2.35 Cr and top model price goes upto Rs. 2.35 Cr.</p>
+                    <a href="brands.html" class="btn btn-outline-info">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <img src="images/lamborghini_1.webp" width="300px">
+                    <h3>Lamborghini Revuelto</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>Lamborghini Revuelto price starts at Rs. 8.89 Cr and top model price goes upto Rs. 8.89 Cr. </p>
+                    <a href="brands.html" class="btn btn-outline-info">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <img src="images/macleren_1.webp" width="300px">
+                    <h3>Mclaren 750S</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p> Mclaren 750S will be a Coupe available in automatic transmission & petrol options.</p>
+                    <a href="brands.html" class="btn btn-outline-info">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <img src="images/audi_01.webp" width="300px">
+                    <h3>Audi e-tron GT</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>Audi e-tron GT is priced from Rs 1.79 crore to Rs 2.04 crore (ex-showroom). Audi e-tron GT.
+                        Variants: It is sold in two variants: e-tron GT and RS e-tron GT.</p>
+                    <a href="brands.html" class="btn btn-outline-info">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--=================== card hover effect end ===================-->
+
+    <!--================== lamborghini cars =================-->
+    <div class="container-fluid">
+        <div class="row py-3">
+            <h1 class="text-info">Lamborghini Car Models</h1>
+            <div class="col-md-3 _lambcard" id="lambor_01">
+                <div class="card">
+                    <img src="images/lamborghin_2.webp" class="card-img-top">
+                    <div class="card-body">
+                        <div class="card-title"><b>Lamborghini Huracan Evo</b></div>
+                        <div class="card-text">7 kmpl | 571-631 bhp</div>
+                        <div class="card-text"><b>Rs. 3.71 Crore onwards</b></div>
+                        <div class="card-text">On-Road Price, Delhi</div>
+                        <div class="card-footer"><i class="fa-solid fa-star" style="color: #1cd8d2;">4.8</i>
+                            <span style="font-size: 15px;color: #333;">/5</span>
+                            <span style="font-size: 15px;color: #333;"> | 2.4M Ratings</span><br><br>
+                            <a href="#" class="btn btn-outline-info">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 _lambcard" id="lambor_02">
+                <div class="card">
+                    <img src="images/lamborghin_3.webp" class="card-img-top">
+                    <div class="card-body">
+                        <div class="card-title"><b>Lamborghini Urus Performante</b></div>
+                        <div class="card-text">7 kmpl | 657 bhp</div>
+                        <div class="card-text"><b>Rs. 4.86 Crore onwards</b></div>
+                        <div class="card-text">On-Road Price, Delhi</div>
+                        <div class="card-footer"><i class="fa-solid fa-star" style="color: #1cd8d2;">4.9</i>
+                            <span style="font-size: 15px;color: #333;">/5</span>
+                            <span style="font-size: 15px;color: #333;"> | 3.9M Ratings</span><br><br>
+                            <a href="#" class="btn btn-outline-info">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 _lambcard" id="lambor_03">
+                <div class="card">
+                    <img src="images/lamborghini_4.webp" class="card-img-top">
+                    <div class="card-body">
+                        <div class="card-title"><b>Lamborghini Huracan Evo Spyder</b></div>
+                        <div class="card-text">7 kmpl | 601 bhp</div>
+                        <div class="card-text"><b>Rs. 4.71 Crore onwards</b></div>
+                        <div class="card-text">On-Road Price, Delhi</div>
+                        <div class="card-footer"><i class="fa-solid fa-star" style="color: #1cd8d2;">4.7</i>
+                            <span style="font-size: 15px;color: #333;">/5</span>
+                            <span style="font-size: 15px;color: #333;"> | 1.4M Ratings</span><br><br>
+                            <a href="#" class="btn btn-outline-info">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 _lambcard" id="lambor_04">
+                <div class="card">
+                    <img src="images/lamborghini_5.webp" class="card-img-top">
+                    <div class="card-body">
+                        <div class="card-title"><b>Lamborghini Huracan Sterrato</b></div>
+                        <div class="card-text">7 kmpl | 602 bhp</div>
+                        <div class="card-text"><b>Rs. 5.1 Crore onwards</b></div>
+                        <div class="card-text">On-Road Price, Delhi</div>
+                        <div class="card-footer"><i class="fa-solid fa-star" style="color: #1cd8d2;">5</i>
+                            <span style="font-size: 15px;color: #333;">/5</span>
+                            <span style="font-size: 15px;color: #333;"> | 2.1M Ratings</span><br><br>
+                            <a href="#" class="btn btn-outline-info">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--===================== lamborghini cars end =================-->
+
+    <!--====================== Card Carousel st ==================-->
+    <div class="container-fluid bg-light mt-4 my-3">
+        <div class="row mx-auto justify-content-center">
+            <div id="recipeCarousel" class="carousel carousel_01 slide" data-bs-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                    <h4 class="text-dark">Top Cars in India</h4>
+                    <div class="carousel-item item_01 active">
+                        <div class="col-md-3 m-1">
+                            <div class="card">
+                                <a href="#" class="text-decoration-none">
+                                    <img src="images/ferrari_1.avif" class="card-img-top" style="height: 210px;">
+                                    <div class="card-body text-center">
+                                        <b class="text-dark">Ferrari G6</b>
+                                        <p class="text-center" style="color: rgb(70, 70, 70);">Ferrari A65,
+                                            Mercedes-Benz A-Class</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item item_01">
+                        <div class="col-md-3 m-1">
+                            <div class="card">
+                                <a href="#" class="text-decoration-none">
+                                    <img src="images/mercedez-benz_amd_sl_1.webp" class="card-img-top"
+                                        style="height: 210px;">
+                                    <div class="card-body text-center">
+                                        <b class="text-dark">Mercedes-Benz M9S</b>
+                                        <p class="text-center" style="color: rgb(70, 70, 70);;">Rolls-Royce, Bentley
+                                            S1-Class</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item item_01">
+                        <div class="col-md-3 m-1">
+                            <div class="card">
+                                <a href="#" class="text-decoration-none">
+                                    <img src="images/mercedes_banner.jpeg" class="card-img-top" style="height: 210px;">
+                                    <div class="card-body text-center">
+                                        <b class="text-dark">Mastang A65</b>
+                                        <p class="text-center" style="color: rgb(70, 70, 70);;">Matang,Mercedes-Benz
+                                            S-Class </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item item_01">
+                        <div class="col-md-3 m-1">
+                            <div class="card">
+                                <a href="#" class="text-decoration-none">
+                                    <img src="images/lamborghini_banner3.jpg" class="card-img-top"
+                                        style="height: 210px;">
+                                    <div class="card-body text-center">
+                                        <b class="text-dark">Lamborghini Revuelto Orange</b>
+                                        <p class="text-center" style="color: rgb(70, 70, 70);;">Lamborghini All Laxury
+                                            Cars</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item item_01">
+                        <div class="col-md-3 m-1">
+                            <div class="card">
+                                <a href="#" class="text-decoration-none">
+                                    <img src="images/bmw_2.avif" class="card-img-top" style="height: 210px;">
+                                    <div class="card-body text-center">
+                                        <b class="text-dark">BMW AW7</b>
+                                        <p class="text-center" style="color: rgb(70, 70, 70);;">BMW, and All Top Brands
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item item_01">
+                        <div class="col-md-3 m-1">
+                            <div class="card">
+                                <a href="#" class="text-decoration-none">
+                                    <img src="images/rolls-royce_2.avif" class="card-img-top" style="height: 210px;">
+                                    <div class="card-body text-center">
+                                        <b class="text-dark">Rolls-Royce</b>
+                                        <p class="text-center" style="color: rgb(70, 70, 70);;">Highest Modals Cars</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item item_01">
+                        <div class="col-md-3 m-1">
+                            <div class="card">
+                                <a href="#" class="text-decoration-none">
+                                    <img src="images/bentley_1.avif" class="card-img-top" style="height: 210px;">
+                                    <div class="card-body text-center">
+                                        <b class="text-dark">Bentley</b>
+                                        <p class="text-center" style="color: rgb(70, 70, 70);;">All Cars Available in
+                                            India</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--==================== card carousel end ==================-->
+
+    <!--================== about st ==================-->
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <h1 class="text-center" style="color: rgb(178, 245, 245);">ABOUT</h1>
+            <div class="col" id="about"><a href="images/audi_banner_01.webp"><img src="images/audi_banner_01.webp"
+                        style="width: 50%;"></a><a href="images/bmw_1.avif"><img src="images/bmw_1.avif"
+                        style="width: 50%;"></a><br><a href="images/rolls-royce_1.avif"><img
+                        src="images/rolls-royce_1.avif" style="width: 50%;"></a><a href="images/bentley_1.avif"><img
+                        src="images/bentley_1.avif" style="width: 50%;"></a>
+            </div>
+
+            <div class="col ms-3" id="about-content">
+                <h1>We Help To Get The Best Cars And Find Best Cars</h1><br><br>
+                <p class="A_1">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos.
+                    Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p><br>
+                <p class="A_2"><i class="fa fa-check" style="color: #1cd8d2;"></i> &nbsp; &nbsp;Tempor erat elitr rebum
+                    at
+                    clita</p><br>
+                <p class="A_2"><i class="fa fa-check" style="color: #1cd8d2;"></i> &nbsp; &nbsp;Aliqu diam amet diam et
+                    eos
+                </p><br>
+                <p class="A_2"><i class="fa fa-check" style="color: #1cd8d2;"></i> &nbsp; &nbsp;Clita duo justo magna
+                    dolore erat amet</p><br><br>
+                <a href="about.html" class="btn btn-outline-info">Read More</a>
+            </div>
+        </div>
+    </div>
+    <!--======================= about end ===================-->
+
+    <!--=================== footer st ====================-->
+    <footer>
+        <div class="row">
+            <div class="col">
+                <h1>Ride It</h1>
+                <p>Ride It is the most trusted way of buying and selling used cars. Choose from over 5000 fully
+                    inspected second-hand car models. Select online and book a test drive at your home or at a Ride It
+                    Car Hub near you. Get a no-questions-asked 5-day money back guarantee and a free one-year
+                    comprehensive service warranty with Assured Resale Value on every Ride It car.</p>
+            </div>
+            <div class="col">
+                <h3>Office <div class="underline"><span></span></div>
+                </h3>
+                <p>Dwarka Sec-15</p>
+                <p>Kakrola, West Delhi</p>
+                <p>New Delhi, PIN 110078, India</p>
+                <p class="email-Id">jamalkhatri9@gmail.com</p>
+                <h4>+91- 7890284901</h4>
+            </div>
+            <div class="col">
+                <h3>Links <div class="underline"><span></span></div>
+                </h3>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About us</a>
+                    </li>
+                    <li>
+                        <a href="brands.html">Brands</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>Newsletter <div class="underline"><span></span></div>
+                </h3>
+                <form>
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="text" placeholder="Enter your email-Id" required>
+                    <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+                </form>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="copy-right">&copy; Ride It Privet Limited.
+            All rights reserved. | Designed By Jamal</p>
+    </footer>
+    <!--========================== footer end ==========================-->
+
+
+    <!-- js bundle file -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        let items = document.querySelectorAll('.carousel_01 .item_01')
+
+        items.forEach((el) => {
+            const minPerSlide = 4
+            let next = el.nextElementSibling
+            for (var i = 1; i < minPerSlide; i++) {
+                if (!next) {
+                    // wrap carousel by using first child
+                    next = items[0]
+                }
+                let cloneChild = next.cloneNode(true)
+                el.appendChild(cloneChild.children[0])
+                next = next.nextElementSibling
+            }
+        })
+
+        // ====================== Animation st ====================== //
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                let positiontop = $(document).scrollTop();
+                console.log(positiontop);
+
+
+                if ((positiontop > 1050)) {
+                    $("#lambor_01").addClass("animate__animated animate__slideInUp");
+                    $("#lambor_02").addClass("animate__animated animate__slideInUp");
+                    $("#lambor_03").addClass("animate__animated animate__slideInUp");
+                    $("#lambor_04").addClass("animate__animated animate__slideInUp");
+                }
+
+                if ((positiontop > 2105)) {
+                    $("#about-content").addClass("animate__animated animate__bounceInRight")
+                }
+            });
+        })
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                let card = $(document).scrollTop();
+                console.log(card);
+
+
+                if ((card > 150)) {
+
+                    $("#lamb-big").addClass("animate__animated animate__bounceInRight")
+                }
+
+                // if((positiontop>200)&&(positiontop<560)){
+
+                // }
+            });
+        })
+    </script>
+</body>
+
+</html>

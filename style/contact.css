@@ -1,0 +1,414 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: 'areil', sans-serif;
+}
+
+body {
+    background-color: #333;
+}
+
+nav {
+    background-color: rgb(39, 36, 36);
+}
+
+nav a h1 {
+    /* background-image: url(images/ferrari_banner.jpeg); */
+    font-size: 35px;
+    /* background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text; */
+    color: #1cd8d2;
+    font-family: algerian;
+    font-weight: 900;
+}
+
+/*========== search btn =========*/
+.search {
+    height: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    cursor: pointer;
+    padding: 10px 20px;
+    background: rgb(146, 220, 220);
+    border-radius: 30px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.search:hover input {
+    width: 250px;
+}
+
+.search input {
+    width: 0;
+    outline: none;
+    border: none;
+    font-weight: 400;
+    -webkit-transition: 0.8s;
+    -o-transition: 0.8s;
+    transition: 0.8s;
+    background: transparent;
+}
+
+.search a .fa-solid {
+    color: #1cd8d2;
+    font-size: 18px;
+}
+
+/*======= search btn end ===========*/
+
+.navbar-collapse {
+    margin-left: 9%;
+    padding: 0;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+
+.navbar-collapse ul li a {
+    font-size: 17px;
+    margin: 5px;
+    /* display: block; */
+    padding: 10px 15px;
+    position: relative;
+    color: rgb(146, 220, 220);
+}
+
+.navbar-collapse ul li a:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #1cd8d2;
+    -webkit-transform: scaleX(0);
+        -ms-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transform-origin: left;
+        -ms-transform-origin: left;
+            transform-origin: left;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.navbar-collapse ul li a:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #1cd8d2;
+    -webkit-transform: scaleX(0);
+        -ms-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transform-origin: right;
+        -ms-transform-origin: right;
+            transform-origin: right;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.navbar-collapse ul li a:hover {
+    color: #1cd8d2;
+}
+
+.navbar-collapse ul li a:hover:before,
+.navbar-collapse ul li a:hover:after {
+    -webkit-transform: scaleX(1);
+        -ms-transform: scaleX(1);
+            transform: scaleX(1);
+}
+form label input{
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+    background: transparent;
+    outline: none;
+    border:1px solid #1cd8d2;
+    color: #8af7f0;
+}
+form #text{
+    width: 400px;
+    background: transparent;
+    outline: none;
+    border: 1px solid #1cd8d2;
+    color: #8af7f0;
+    margin-left: 30px;
+    padding: 5px;
+}
+/*=============== navbar end =============*/
+
+
+/*============= footer st =============*/
+footer {
+    width: 100%;
+    /* position: absolute;
+    bottom: 0; */
+    background: -webkit-gradient(linear, right top, left top, from(#1cd8d2), to(#333));
+    background: -o-linear-gradient(right, #1cd8d2, #333);
+    background: linear-gradient(to left, #1cd8d2, #333);
+    color: #fff;
+    padding: 100px 0px 30px;
+    border-top-right-radius: 125px;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+footer .row {
+    width: 85%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+footer .row .col {
+    -ms-flex-preferred-size: 25%;
+        flex-basis: 25%;
+    padding: 10px;
+}
+
+footer .row .col:nth-child(2),
+footer .row .col:nth-child(3) {
+    -ms-flex-preferred-size: 15%;
+        flex-basis: 15%;
+}
+
+footer .row .col h1 {
+    color: #1cd8d2;
+    font-family: algerian;
+}
+
+footer .row .col h3 {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+footer .row .col .email-Id {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px;
+}
+
+footer .row .col ul li {
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+footer .row .col ul li a {
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    padding: 10px;
+}
+footer .row .col ul li a:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #333;
+    -webkit-transform: scaleX(0);
+        -ms-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transform-origin: left;
+        -ms-transform-origin: left;
+            transform-origin: left;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+footer .row .col ul li a:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #333;
+    -webkit-transform: scaleX(0);
+        -ms-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transform-origin: right;
+        -ms-transform-origin: right;
+            transform-origin: right;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+footer .row .col ul li a:hover {
+    color: #333;
+}
+
+footer .row .col ul li a:hover:before,
+footer .row .col ul li a:hover:after {
+    -webkit-transform: scaleX(1);
+        -ms-transform: scaleX(1);
+            transform: scaleX(1);
+}
+
+
+footer .row .col form {
+    padding-bottom: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #333;
+}
+
+footer .row .col form .fa-solid {
+    font-size: 18px;
+    margin-right: 10px;
+    color: #333;
+}
+
+footer .row .col form input {
+    background: transparent;
+    width: 100%;
+    color: black;
+    border: none;
+    outline: none;
+}
+
+footer .row .col form button {
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+footer .row .col form button .fa-solid {
+    font-size: 18px;
+    color: #333;
+}
+
+footer .row .col .social-icons a .fa-brands {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 50%;
+    text-align: center;
+    color: #000;
+    background: #fff;
+    line-height: 40px;
+    margin-right: 15px;
+}
+footer .row .col .social-icons a .fa-facebook:hover{
+    color: #316556;
+}
+footer .row .col .social-icons a .fa-instagram:hover{
+    color:#cd486b;
+}
+footer .row .col .social-icons a .fa-linkedin:hover{
+    color:#0077b5;
+}
+footer .row .col .social-icons a .fa-youtube:hover{
+    color:#CD201F;
+}
+footer hr {
+    width: 90%;
+    border: 0;
+    border-bottom: 2px solid black;
+    margin: 20px auto;
+}
+
+footer .copy-right {
+    text-align: center;
+}
+
+footer .row .col .underline {
+    width: 100%;
+    height: 5px;
+    background: #546b74;
+    border-radius: 3px;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    overflow: hidden;
+}
+
+footer .row .col .underline span {
+    width: 15px;
+    height: 100%;
+    background: #1cd8d2;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    -webkit-animation: moving 2s linear infinite;
+            animation: moving 2s linear infinite;
+}
+
+@-webkit-keyframes moving {
+    0% {
+        left: -20px;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
+
+@keyframes moving {
+    0% {
+        left: -20px;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
+
+/*========= footer end ===========*/
+
+/*======== Responsive ===============*/
+@media only screen and (max-width:768px) {
+    .navbar-toggler {
+        position: absolute;
+        right: 0;
+        top: 15px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .search {
+        margin-right: 10%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    nav .col-1 {
+        margin-right: 10%;
+    }
+}
